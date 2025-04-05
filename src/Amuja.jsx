@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { database, ref, push } from './firebase';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import ContactModal from './Modal';
+// import ContactModal from './Modal';
 import './style.css';
 
 import kitchenImage from './assets/images/services/kitchen.jpg';
@@ -15,15 +15,15 @@ import plumbingImage from './assets/images/services/plumbing.jpg';
 // Portfolio Images
 import project1 from './assets/images/portfolio/project1.jpeg';
 import project2 from './assets/images/portfolio/project2.jpeg';
-import project3 from './assets/images/portfolio/project3.jpeg';
+import project3 from './assets/images/portfolio/project3.jpg';
 import project4 from './assets/images/portfolio/project4.jpeg';
 import project5 from './assets/images/portfolio/project5.jpeg';
-import project6 from './assets/images/portfolio/project6.jpeg';
+import project6 from './assets/images/portfolio/project6.jpg';
 import project7 from './assets/images/portfolio/project7.jpeg';
 import project8 from './assets/images/portfolio/project8.jpeg';
 import project9 from './assets/images/portfolio/project9.jpeg';
-import project10 from './assets/images/portfolio/project10.jpeg';
-import project11 from './assets/images/portfolio/project11.jpeg';
+import project10 from './assets/images/portfolio/project10.jpg';
+import project11 from './assets/images/portfolio/project11.jpg';
 import project12 from './assets/images/portfolio/project12.jpeg';
 import project13 from './assets/images/portfolio/project13.jpeg';
 import project14 from './assets/images/portfolio/project14.jpeg';
@@ -32,7 +32,7 @@ import project16 from './assets/images/portfolio/project16.jpeg';
 import project17 from './assets/images/portfolio/project17.jpeg';
 import project18 from './assets/images/portfolio/project18.jpeg';
 import project19 from './assets/images/portfolio/project19.jpeg';
-import project20 from './assets/images/portfolio/project20.jpeg';
+import project20 from './assets/images/portfolio/project20.jpg';
 // about
 import Aboutimg from './assets/images/about-img.jpg';
 import heroBg from './assets/images/hero-bg.jpg';
@@ -74,9 +74,9 @@ const AmujaRenovation = () => {
 
     loadWhatsAppWidget();
 
-    const timer = setTimeout(() => {
-      setShowModal(true);
-    }, 10000); // 2 minutes in milliseconds 120000
+    // const timer = setTimeout(() => {
+    //   setShowModal(true);
+    // }, 10000); // 2 minutes in milliseconds 120000
 
     // Navbar scroll effect
     const handleScroll = () => {
@@ -157,7 +157,7 @@ const AmujaRenovation = () => {
     // Cleanup function
     return () => {
       document.body.removeChild(script);
-      clearTimeout(timer);
+      // clearTimeout(timer);
       window.removeEventListener('scroll', handleScroll);
       window.removeEventListener('scroll', handleBackToTop);
     };
@@ -390,7 +390,7 @@ const AmujaRenovation = () => {
             <div className="carousel-inner">
               {portfolioItems.map((image, index) => (
                 <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={index}>
-                  <img src={image} className="d-block w-100" alt={`Project ${index + 1}`} />
+                  <img src={image} className="d-block w-100 img" alt={`Project ${index + 1}`} />
                 </div>
               ))}
             </div>
@@ -566,7 +566,7 @@ const AmujaRenovation = () => {
       </footer>
 
       {/* Contact Modal */}
-      <ContactModal showModal={showModal} onClose={() => setShowModal(false)} />
+      {/* <ContactModal showModal={showModal} onClose={() => setShowModal(false)} /> */}
     </div>
   );
 };
