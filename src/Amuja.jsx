@@ -559,7 +559,7 @@ const AmujaRenovation = () => {
               <p className="mb-md-0">© 2025 Amuja Renovation LLC. All Rights Reserved.</p>
             </div>
             <div className="col-md-6 text-md-end">
-              <p>Designed with excellence by YoLa </p>
+              <p>Designed with excellence by Nexora </p>
             </div>
           </div>
         </div>
