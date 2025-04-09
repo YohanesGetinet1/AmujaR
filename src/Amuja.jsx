@@ -51,7 +51,7 @@ const AmujaRenovation = () => {
 
     const loadWhatsAppWidget = () => {
       const options = {
-        whatsapp: "+917406635671",
+        whatsapp: "+1614-368-4484",
         call_to_action: "Chat with us!",
         position: "right",
         message: "Hello! 👋 How can we assist you today?",
@@ -483,14 +483,14 @@ const AmujaRenovation = () => {
                   <div className="contact-info-icon"><i className="fas fa-phone"></i></div>
                   <div>
                     <h5>Phone</h5>
-                    <p><a href="tel:5551234567">(555) 123-4567</a></p>
+                    <p><a href="tel:5551234567">(614) 368-4484</a></p>
                   </div>
                 </div>
                 <div className="contact-info-item">
                   <div className="contact-info-icon"><i className="fas fa-envelope"></i></div>
                   <div>
                     <h5>Email</h5>
-                    <p><a href="mailto:info@premiumrenovations.com">info@premiumrenovations.com</a></p>
+                    <p><a href="mailto:amujiarenovation@gmail.com">amujiarenovation@gmail.com</a></p>
                   </div>
                 </div>
                 <div className="contact-info-item">
@@ -546,10 +546,10 @@ const AmujaRenovation = () => {
               <h5>Follow Us</h5>
               <p>Stay connected with us on social media.</p>
               <div className="social-icons mt-3">
-                <a href="https://facebook.com/yourpage" className="me-2" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
-                <a href="https://twitter.com/yourhandle" className="me-2" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
-                <a href="https://instagram.com/yourprofile" className="me-2" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
-                <a href="https://www.tiktok.com/@yourprofile" className="me-2" target="_blank" rel="noopener noreferrer"><i className="fab fa-tiktok"></i></a>
+                <a href="https://facebook.com/" className="me-2" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/" className="me-2" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/" className="me-2" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/" className="me-2" target="_blank" rel="noopener noreferrer"><i className="fab fa-tiktok"></i></a>
               </div>
             </div>
           </div>
@@ -564,9 +564,6 @@ const AmujaRenovation = () => {
           </div>
         </div>
       </footer>
-
-      {/* Contact Modal */}
-      {/* <ContactModal showModal={showModal} onClose={() => setShowModal(false)} /> */}
     </div>
   );
 };
